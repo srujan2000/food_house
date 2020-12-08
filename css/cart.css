@@ -89,7 +89,7 @@ body{
 
 
 .totalPrice{
-    text-align: right;
+    text-align: center;
     padding-right: 20px;
 }
 
@@ -139,9 +139,55 @@ body{
     font-weight: 600;
 }
 
+.noItems {
+    text-align: center;
+}
+
+.noItems h1{
+    color: #16A34A;
+    letter-spacing: 0.5px;
+    margin-top: 50px;
+}
+
+.noItems button{
+    background-color: #16A34A;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+
+.noItems button a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: #ffffff;
+}
 
 
-@media only screen and (max-width:748px){
+@media only screen and (max-width:349px){
+    .list-items a{
+        font-size: 1rem;
+    }
+
+    .row1{
+        display: none;
+    }
+    .row2{
+        grid-template-columns: 100%;
+    }
+    .quantity{
+        margin-top: 0;
+    }
+
+    .price{
+        margin-top: 0px;
+    }
+
+    .quantity button{
+        width: 8%;
+    }
+}
+
+@media (min-width:350px) and (max-width:748px){
     .row1{
         display: none;
     }
