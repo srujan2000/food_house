@@ -11,13 +11,13 @@ body{
 
 .navbar{
     background-color: #16A34A;
-    /* padding-top: 10px;
-    padding-bottom: 10px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar-brand img{
     display: block;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .lists{

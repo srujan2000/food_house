@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navbar{
+    background-color: #16A34A;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar-brand img{
+    display: block;
+    margin-top: -20px;
+}
+
+.lists{
+    margin-top: -75px;
+    list-style: none;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.list-items{
+    display: inline;
+     padding-right: 20px;
+}
+
+.list-items a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.list-items a:hover{
+    color: #000000;
+}
+
+
+#cart-items{
+    margin-top: 70px;
+    text-align: center;
+}
+
+#cart-items h1{
+    font-size: 2em;
+    color: #16A34A;
+}
+
+.row1,.row2{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    margin-top: 30px;
+}
+
+.row1 h2{
+    color: #16A34A;
+}
+
+
+.quantity{
+    margin-top: 50px;
+}
+
+.quantity button{
+    border: none;
+    outline: none;
+    width: 10%;
+    background-color: #16A34A;
+    color: #ffffff;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding: 10px 0;
+}
+
+.quantity input{
+    width: 10%;
+}
+
+.price{
+    margin-top: 30px;
+}
+
+
+.totalPrice{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.totalPrice h1{
+    color: #16A34A;
+}
+
+.totalPrice button{
+    border: none;
+    background-color: #16A34A;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: #ffffff;
+    outline: none;
+}
+
+.totalPrice button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+
+}
+
+
+#footer{
+    background-color: #16A34A;
+    margin-top: 50px;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+#footer img{
+    margin-top: -15px;
+}
+
+.foot{
+    margin-top: -50px;
+}
+
+.foot h2{
+    font-size: 1.5rem;
+}
+.foot p{
+    font-size: 1rem;
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+
+
+@media only screen and (max-width:748px){
+    .row1{
+        display: none;
+    }
+    .row2{
+        grid-template-columns: 100%;
+    }
+
+    .quantity{
+        margin-top: 0;
+    }
+
+    .price{
+        margin-top: 0px;
+    }
+
+    .quantity button{
+        width: 8%;
+    }
+}
