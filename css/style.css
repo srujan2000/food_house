@@ -92,6 +92,7 @@ body{
     border-radius: 10px;
     margin-bottom: 50px;
     outline: none;
+    cursor: pointer;
 }
 
 #products button a{
