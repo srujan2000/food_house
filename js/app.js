@@ -22,7 +22,7 @@ function check(e){
     const image = e.target.attributes.image.value
     const err = e.target.parentElement.parentElement;
     
-    console.log(err)
+    // console.log(err)
     
     const arr = [price,name,image,1];
     addtols(arr,err);
@@ -34,7 +34,6 @@ function checkifexists(arr){
 
     for (item of items){
          if(item[1] === arr[1]){
-            //  alert(`${arr[1]} is already added in the cart`);
              return false;
          }
     }

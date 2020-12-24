@@ -10,9 +10,12 @@ body{
 }
 
 .navbar{
+    width: 100%;
+    position: fixed;
     background-color: #16A34A;
     padding-top: 10px;
     padding-bottom: 15px;
+    margin-top: -150px;
 }
 
 .navbar-brand img{

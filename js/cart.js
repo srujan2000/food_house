@@ -16,6 +16,8 @@ let items = getItems();
 if(getItems().length === 0){
     document.getElementById('cartNo').innerHTML = ''
     document.getElementById('cart-items').style.display ='none';
+    document.querySelector('.navbar').style.marginTop ="0px"
+    document.querySelector('.noItems').style.paddingTop ="80px"
 
 }else{
     document.getElementById('cartNo').innerHTML = ` ${getItems().length}`
@@ -64,7 +66,7 @@ function incredecr(e){
                     cartNo +=1
                     item[3] = cartNo
                     // cartDisplay.value = item[3]
-                    price =  priceItem * cartNo;
+                    // price =  priceItem * cartNo;
                     localStorage.setItem('addtocart',JSON.stringify(items))
                     location.reload();
                 }
@@ -77,7 +79,7 @@ function incredecr(e){
                         location.reload();
                     }else{
                         // cartDisplay.value = item[3]
-                        price =  priceItem * cartNo;
+                        // price =  priceItem * cartNo;
                         localStorage.setItem('addtocart',JSON.stringify(items))
                         location.reload();
                     }
