@@ -51,6 +51,10 @@ body{
     text-align: center;
 }
 
+.item img{
+    border-radius: 70%;
+}
+
 #head{
     padding-top: 100px;
     font-size: 2em;

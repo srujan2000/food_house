@@ -83,9 +83,9 @@ body{
 
 }
 
-/* #products img{
-    border-radius: 50%;
-} */
+#products img{
+    border-radius: 70%;
+}
 
 #products button{
     border: none;
